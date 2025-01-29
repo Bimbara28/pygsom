@@ -4,8 +4,9 @@ from scipy.spatial import distance
 import scipy
 from tqdm import tqdm
 import math
+from visualize import plot
 
-data_filename = "example/data/zoo.txt".replace('\\', '/')
+data_filename = "../example/data/zoo.txt".replace('\\', '/')
 
 
 class GSOM:
@@ -364,13 +365,15 @@ class GSOM:
 
 
 if __name__ == '__main__':
-    np.random.seed(1)
     df = pd.read_csv(data_filename)
     print(df.shape)
     data_training = df.iloc[:, 1:17]
-    gsom = GSOM(.83, 16, max_radius=4)
+    gsom = GSOM(.57, 16, max_radius=4)
     gsom.fit(data_training.to_numpy(), 100, 50)
-    output = gsom.predict(df,"Name","label")
+    output = gsom.predict(df, "Name", "label")
+    
+    # Call the standalone plot function
+    plot(output, "Name", gsom_map=gsom)
+    
     output.to_csv("output.csv", index=False)
-
     print("complete")

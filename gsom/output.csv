@@ -1,0 +1,22 @@
+output,Name,label,hit_count,x,y
+0,"['chicken', 'crow', 'dove', 'duck', 'flamingo', 'gull', 'hawk', 'kiwi', 'lark', 'ostrich', 'parakeet', 'pheasant', 'rhea', 'skimmer', 'skua', 'sparrow', 'swan', 'vulture', 'wren']","[2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]",19,1.0,1.0
+2,"['bass', 'carp', 'catfish', 'chub', 'dogfish', 'haddock', 'herring', 'pike', 'piranha', 'seahorse', 'sole', 'stingray', 'tuna']","[4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]",13,0.0,1.0
+8,"['crayfish', 'flea', 'gnat', 'honeybee', 'housefly', 'ladybird', 'lobster', 'moth', 'octopus', 'scorpion', 'termite', 'wasp']","[7, 6, 6, 6, 6, 6, 7, 6, 7, 7, 6, 6]",12,2.0,1.0
+15,['platypus'],[1],1,-2.0,1.0
+18,['penguin'],[2],1,2.0,2.0
+22,"['aardvark', 'bear', 'boar', 'cheetah', 'leopard', 'lion', 'lynx', 'mink', 'mongoose', 'polecat', 'puma', 'raccoon', 'wolf']","[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",13,-4.0,1.0
+28,"['fruitbat', 'gorilla', 'squirrel', 'vampire', 'wallaby']","[1, 1, 1, 1, 1]",5,-5.0,1.0
+31,['slowworm'],[3],1,5.0,1.0
+33,['starfish'],[7],1,4.0,0.0
+36,['tortoise'],[3],1,0.0,-3.0
+40,['crab'],[7],1,5.0,0.0
+41,"['frog', 'frog', 'newt', 'toad', 'tuatara']","[5, 5, 5, 5, 3]",5,7.0,1.0
+44,"['mole', 'opossum']","[1, 1]",2,-5.0,2.0
+51,['girl'],[1],1,-4.0,4.0
+54,"['clam', 'slug', 'worm']","[7, 7, 7]",3,7.0,0.0
+59,['pussycat'],[1],1,-5.0,-1.0
+60,"['antelope', 'buffalo', 'calf', 'cavy', 'deer', 'elephant', 'giraffe', 'goat', 'hamster', 'hare', 'oryx', 'pony', 'reindeer', 'vole']","[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]",14,-6.0,1.0
+69,['sealion'],[1],1,8.0,4.0
+73,"['pitviper', 'seasnake', 'seawasp']","[3, 3, 7]",3,7.0,4.0
+77,"['dolphin', 'porpoise']","[1, 1]",2,7.0,5.0
+78,['seal'],[1],1,11.0,-1.0
